@@ -1,0 +1,9 @@
+h1 {   
+color: red;
+background-color: black;
+}                              
+button {
+    background-color: black;
+    color: white;
+}
+/* #header id we can also use for styling */

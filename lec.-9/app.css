@@ -1,0 +1,76 @@
+body{
+    background-color:#CBD2A4;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+    
+/*  vh ---> means 70 % of scren height */
+.game{
+    height: 65vmin;
+    width: 65vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;;
+
+} 
+/* vmin -->is vh ka 1% smaller */
+
+.box{
+    height: 18vmin;
+    width:18vmin ;
+    border-radius: 1rem;
+    border: none;
+    box-shadow:0 0 4rem rgba(0,0,0,0.3);
+    font-size: 8vmin;
+    background-color: #E9EED9;
+    color: black;
+}
+.box:hover{
+        border: 2px solid #9A7E6F ;
+    
+}
+h1{
+    color: #9A7E6F;
+}
+#reset-btn{
+padding: 1rem;
+font-size: 1.25rem;
+background-color: black;
+color: white;
+border-radius: 1rem;
+border: none;
+
+}
+#new-btn{
+    padding: 1rem;
+font-size: 1.25rem;
+background-color: black;
+color: white;
+border-radius: 1rem;
+border: none;
+}
+
+#msg{
+    color:#54473F;
+    font-size: 8vmin;
+}
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+
+}
+.hide{
+ display:none;
+}
